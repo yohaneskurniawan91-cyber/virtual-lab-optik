@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.venv-py311/
+build/
+dist/
+VirtualLab.dmg
+student_profile.json
+db_config.json
+*.pdf
+*.docx
+*.html
+*.md

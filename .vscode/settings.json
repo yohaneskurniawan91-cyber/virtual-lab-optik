@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.activateEnvironment": true
+}
+self.ax_graph.clear()
+        I_values = []
+        x_vals = [] # Trial index <--- Perbaikan
+        R = float(self.entry_r.get()) # Asumsi R konstan antar percobaan

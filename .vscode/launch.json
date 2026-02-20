@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Virtual Lab",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/virtual_lab_fisika_dasar.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "${workspaceFolder}/.venv/bin/python3"
+        }
+    ]
+}
