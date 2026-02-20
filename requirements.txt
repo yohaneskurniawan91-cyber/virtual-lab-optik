@@ -1,7 +1,4 @@
-pandas
-requests
-openpyxl
-numpy
-matplotlib
-python-docx
 streamlit
+matplotlib
+numpy
+pandas
