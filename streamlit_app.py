@@ -71,14 +71,13 @@ try:
     is_flat = "Datar" in jenis_optik
 
     if "Konvergen" in jenis_optik:
-        f = f_val
+        f = float(f_val)
     elif "Divergen" in jenis_optik:
-        f = -f_val
+        f = -float(f_val)
     else:
         f = float('inf') # Cermin Datar / Fallback
 
     # FIX: Force float conversion to prevent potential type errors
-    f = float(f)
     s_val = float(s_val)
     h_obj = float(h_obj)
 
